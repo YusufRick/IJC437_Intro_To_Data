@@ -1,0 +1,14 @@
+file,rows,columns,column_names,total_missing_cells,duplicate_rows
+musicoset_metadata/albums.csv,26519,8,"album_id, name, billboard, artists, popularity, total_tracks, album_type, image_url",0,0
+musicoset_metadata/artists.csv,11518,8,"artist_id, name, followers, popularity, artist_type, main_genre, genres, image_url",2,0
+musicoset_metadata/releases.csv,26522,4,"artist_id, album_id, release_date, release_date_precision",0,0
+musicoset_metadata/songs.csv,20405,7,"song_id, song_name, billboard, artists, popularity, explicit, song_type",0,0
+musicoset_metadata/tracks.csv,20405,5,"song_id, album_id, track_number, release_date, release_date_precision",0,0
+musicoset_popularity/album_chart.csv,471706,5,"album_id, rank_score, peak_position, week_count, date",0,70
+musicoset_popularity/album_pop.csv,39469,4,"album_id, year_end_score, is_pop, year",0,0
+musicoset_popularity/artist_chart.csv,530379,5,"artist_id, rank_score, peak_position, weeks_on_chart, week",0,0
+musicoset_popularity/artist_pop.csv,36997,4,"artist_id, year_end_score, is_pop, year",0,0
+musicoset_popularity/song_chart.csv,250392,5,"song_id, rank_score, peak_position, weeks_on_chart, week",0,0
+musicoset_popularity/song_pop.csv,25193,4,"song_id, year_end_score, is_pop, year",0,0
+musicoset_songfeatures/acoustic_features.csv,20405,14,"song_id, duration_ms, key, mode, time_signature, acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo",0,0
+musicoset_songfeatures/lyrics.csv,20404,2,"song_id, lyrics",741,0
