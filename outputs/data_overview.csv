@@ -11,4 +11,3 @@ musicoset_popularity/artist_pop.csv,36997,4,"artist_id, year_end_score, is_pop, 
 musicoset_popularity/song_chart.csv,250392,5,"song_id, rank_score, peak_position, weeks_on_chart, week",0,0
 musicoset_popularity/song_pop.csv,25193,4,"song_id, year_end_score, is_pop, year",0,0
 musicoset_songfeatures/acoustic_features.csv,20405,14,"song_id, duration_ms, key, mode, time_signature, acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo",0,0
-musicoset_songfeatures/lyrics.csv,20404,2,"song_id, lyrics",741,0
